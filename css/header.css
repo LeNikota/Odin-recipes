@@ -33,6 +33,7 @@ header a{
     display: inline-block;
     text-decoration: none;
     color:var(--text);
+    user-select: none;
 }
 
 header{
