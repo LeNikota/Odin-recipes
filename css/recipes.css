@@ -21,6 +21,8 @@ div li{
 h1 {
     text-align: center;
     margin: 8rem 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
 }
 
 h2 {
@@ -31,6 +33,7 @@ h2 {
     display: flex;
     border: var(--border) 5px solid;
     padding: 10px;
+    box-shadow: black 0 10px 100px -30px;
 }
 
 img {
@@ -58,4 +61,15 @@ img {
 
 .steps{
     border: var(--border);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.center ul{
+    display: block;
 }
